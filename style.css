@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    list-style: none;
+}
+
+.bg {
+    background: linear-gradient(to bottom right, rgb(4, 175, 218), rgb(250, 75, 241));
+    width: 100%;
+    height: auto;
+}
+
+.bof {
+    margin: 20px;
+    height: auto;
+    padding: 10px;
+
+    .ff {
+        height: auto;
+        padding: 30px;
+        width: auto;
+        margin: 0px auto;
+
+        .f1 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 0s;
+        }
+
+        .f2 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 0.9s;
+        }
+
+        .f3 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 1.8s;
+        }
+
+        .f4 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 2.7s;
+        }
+
+        .f5 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 3.6s;
+        }
+
+        .f6 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 4.5s;
+        }
+
+        .f7 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 5.4s;
+        }
+
+        .f8 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 6.3s;
+        }
+
+        .f9 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 7.2s;
+        }
+
+        .f10 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 8.1s;
+        }
+
+        .f11 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 9s;
+        }
+
+        .f12 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 9.9s;
+        }
+
+        .f13 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Anton", sans-serif;
+            animation: animation 10.8s linear infinite;
+            animation-direction: alternate;
+            animation-delay: 10.8s;
+        }
+
+    }
+}
+
+@keyframes animation {
+    0% {
+        color: #ffffff;
+        text-shadow: none;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #0945ec,
+            0 0 20px #0945ec,
+            0 0 40px #0945ec,
+            0 0 80px #0945ec,
+            0 0 160px #0945ec;
+        color: #0066ff;
+    }
+}
+@keyframes animate {
+    0%,100%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+ .cc {
+    position: absolute;
+    bottom: 500px;
+    left: -24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc li a{
+    display: inline-block;
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: animate 5s ease-in-out infinite;
+    animation-delay: -2.5s;   
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.3);
+    list-style: none;
+    background-image: url(01.jpg);
+    background-size: cover;
+}
+.cc2 {
+    position: absolute;
+    bottom: 300px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc2 li a{
+    display: inline-block;
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: animate 5s ease-in-out infinite;
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.3);
+    list-style: none;
+    background-image: url(02.jpg);
+    background-size: cover;
+}
+.cc3 {
+    position: absolute;
+    bottom: 80px;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc3 li a{
+    display: inline-block;
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: animate 5s ease-in-out infinite;
+    animation-delay: -2.5s;   
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.3);
+    list-style: none;
+    background-image: url(03.jpg);
+    background-size: 100%;
+} 
